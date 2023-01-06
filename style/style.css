@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, system-ui, sans-serif;
+}
+
+header {
+  background-image: url("../media/image/donation7.jpg");
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+
+.banner {
+  padding: 180px 400px;
+}
+
+.banner .banner-title {
+  font-size: 3.5em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.banner .banner-description {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.btn-primary {
+  background-color: rgb(239, 52, 52);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  border: none;
+  border-radius: 6px;
+  padding: 18px;
+}
+
+/* Main Section Style */
+
+.donate-container {
+  padding: 125px 425px;
+  position: absolute;
+}
+
+.donate-container ul {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.donate-container .donate ul li {
+  list-style: none;
+  padding: 35px 20px;
+  background-color: rgb(177, 174, 174);
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #707070;
+  text-align: center;
+  border: 3px solid transparent;
+}
+
+.donate-container .donate ul li:hover {
+  border: 3px solid rgb(185, 85, 85);
+  background-color: rgb(197, 117, 117);
+  border-radius: 5px;
+  color: rgb(90, 99, 217);
+}
+
+.donate-title {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.814);
+  text-align: center;
+}
+
+.donate-extra {
+  margin-top: 50px;
+  padding: 20px 0;
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.donate-sub-title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.donate-type-container {
+  display: flex;
+  gap: 25px;
+}
+
+.donate-plan-description {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.type-item-food {
+  background-color: #edf5f6;
+  padding: 25px 15px;
+}
+.type-item-shelter {
+  background-color: #ffeeee;
+  padding: 25px 15px;
+}
+.type-item-education {
+  background-color: #fff4d6;
+  padding: 25px 15px;
+}
+
+.donate-type-container img {
+  padding: 25px 20px;
+}
+
+.donate-depend-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.depend-content {
+  padding: 0 10px;
+}
+
+.depend-image img {
+  width: 300;
+  height: 300px;
+}
+
+.depend-description-01,
+.depend-description-02 {
+  font-size: 18px;
+  font-weight: 650;
+  margin-bottom: 16px;
+  color: gray;
+}
+
+.update-container {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.input-field {
+  margin-top: 75px;
+  height: 200px;
+  background-color: #fff4d6;
+}
+
+input {
+  margin-top: 85px;
+}
+
+input[type="text"] {
+  width: 230px;
+  height: 40px;
+  border: none;
+  background-color: lightgray;
+  font-size: 20px;
+  font-weight: 600;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+input::placeholder {
+  padding-left: 20px;
+}
+
+input[type="submit"] {
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -3px;
+  margin-top: -4px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ff5959;
+}
+
+footer {
+    /* text-align: center;
+    margin-top: 150px; */
+    margin-top: 100px;
+    height: 200px;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+}
+
+footer h3 {
+    color: #ff5959;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 55px;  
+}
+
+
+footer p {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
